@@ -41,4 +41,8 @@ class Song
       self.find_by_name(song_string)
     end
   end
+  
+  def self.alphabetical
+    @@all.sort
+  end
 end
