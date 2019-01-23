@@ -47,7 +47,7 @@ class Song
   end
   
   def self.new_from_filename(file_name)
-    song_array = file_name.split()
+    song_array = file_name.split(/\s/)
     binding.pry
   end
 end
