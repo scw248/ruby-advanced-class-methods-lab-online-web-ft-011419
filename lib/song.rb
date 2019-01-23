@@ -32,7 +32,6 @@ class Song
   
   def self.find_by_name(song_string)
     @@all.each do |song| 
-      binding.pry
       if song == song_string 
         song
       end
