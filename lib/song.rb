@@ -32,7 +32,7 @@ class Song
   
   def self.find_by_name(song_string)
     @@all.find do |song| 
-      song == song_string 
+      song.name == song_string 
     end
   end
   
