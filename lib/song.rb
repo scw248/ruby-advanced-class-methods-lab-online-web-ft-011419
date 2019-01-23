@@ -44,7 +44,7 @@ class Song
   
   def self.alphabetical
     name_array = []
-    @@all.each { |song| name_array << song.name }
+    @@all.each { |song| name_array << song }
     name_array.sort
   end
 end
